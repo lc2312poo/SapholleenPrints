@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tienda de impresiones 3D – objetos personalizados de alta calidad" />
+  <title>Print3D Store — Impresiones 3D</title>
+
+  <!-- Bootstrap 5 -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+  />
+  <!-- Bootstrap Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  />
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════
+     NAVBAR
+══════════════════════════════════════════ -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#hero">Sapholleen <span> Prints</span></a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarMenu"
+      aria-controls="navbarMenu"
+      aria-expanded="false"
+      aria-label="Menú"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav ms-auto gap-lg-1">
+        <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ══════════════════════════════════════════
+     HERO
+══════════════════════════════════════════ -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <div class="hero-badge">Impresión 3D de alta calidad</div>
+        <h1 class="hero-title">
+          Objetos únicos<br>
+          <span class="accent">Impresos en 3D</span>
+        </h1>
+        <p class="hero-subtitle">
+          Diseños creativos, piezas funcionales y decorativas creadas capa a capa.
+          Personalizamos cada producto para ti.
+        </p>
+        <div class="hero-ctas d-flex flex-wrap gap-3">
+          <a href="#productos" class="btn-primary-custom">Ver Productos</a>
+        </div>
+      </div>
+      <div class="col-lg-5 d-none d-lg-flex justify-content-center mt-5 mt-lg-0">
+        <div>
+          <img height="400" src="assets/images/icons/logoSaphollen.jpeg" class="imagen-circular"></img>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════
+     PRODUCTOS
+══════════════════════════════════════════ -->
+<section id="productos">
+  <div class="container">
+    <div class="text-center mb-5 fade-up">
+      <span class="section-label">Catálogo</span>
+      <h3 class="section-title">Nuestros Productos</h3>
+      <div class="section-divider mx-auto"></div>
+      <p style="max-width:520px; margin:0 auto; color: #d0d4e0;">
+        Cada pieza es diseñada e impresa con materiales de calidad.
+        Disponible en diferentes colores y acabados.
+      </p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- ── Producto 1 ── -->
+      <!-- Para añadir tu imagen: guarda el archivo en assets/images/products/
+           y cambia el src="assets/images/products/TU-IMAGEN.jpg" -->
+      <div class="col-sm-6 col-lg-4 product-card-wrapper fade-up">
+        <div class="product-card">
+          <div class="product-img-wrapper">
+            <!--
+              INSTRUCCIONES:
+              1. Copia tu imagen en la carpeta: assets/images/products/
+              2. Reemplaza el bloque .img-placeholder por:
+                 <img src="assets/images/products/nombre-imagen.jpg" alt="Nombre del producto" />
+            -->
+            <img src="assets/images/products/chimueloNegro.jpeg" alt="Nombre del producto" />
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Figura articulada de Chimuelo</h3>
+            <p class="product-desc">
+              Hermosa figura de chimuelo, increíble decoración para escritorios, excelente 
+              compañero para cada día de estudio o trabajo.
+            </p>
+            <div class="product-footer">
+              <div class="product-price">
+                $12.000
+                <small>COP</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Producto 6 ── -->
+      <div class="col-sm-6 col-lg-4 product-card-wrapper fade-up">
+        <div class="product-card">
+          <div class="product-img-wrapper">
+<!--IMAGEN O VIDEO-->
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Figura articulada de furia Luminosa</h3>
+            <p class="product-desc">
+              Hermosa figura de Furia Luminosa, increíble decoración para escritorios, excelente 
+              compañero para cada día de estudio o trabajo.
+            </p>
+            <div class="product-footer">
+              <div class="product-price">
+                $12.000
+                <small>COP</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- ── Producto 2 ── -->
+      <div class="col-sm-6 col-lg-4 product-card-wrapper fade-up">
+        <div class="product-card">
+          <div class="product-img-wrapper">
+            <video autoplay muted loop playsinline style="width:100%; height:100%; object-fit:cover;">
+              <source src="assets/images/products/ilusionOpticaVerde.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Ilusión Óptica</h3>
+            <p class="product-desc">
+              Diviértete con esta íncreible Ilusión Óptica, que adicionalmente genera un sonido 
+              relajante con cada movimiento. Contamos con variedad de colores, pidelo en el color que desees! 
+              Disponible en color negro, blanco, violeta, amarillo, azúl, beige, rojo, verde.
+            </p>
+            <div class="product-footer">
+              <div class="product-price">
+                $25.000
+                <small>COP</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Producto 3 ── -->
+      <div class="col-sm-6 col-lg-4 product-card-wrapper fade-up">
+        <div class="product-card">
+          <div class="product-img-wrapper">
+              <video autoplay muted loop playsinline style="width:100%; height:100%; object-fit:cover;">
+                <source src="assets/images/products/IlusiónOpticaBlanco.mp4" type="video/mp4" />
+              </video>  
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Ilusión Óptica en forma de panal</h3>
+            <p class="product-desc">
+              Diviértete con los movimientos de esta genial ilusión óptica en forma de panal, 
+              perfecta para un centro de mesa.Contamos con variedad de colores, pidelo en el color que desees! 
+              Disponible en color negro, blanco, violeta, amarillo, azúl, beige, rojo, verde.
+            </p>
+            <div class="product-footer">
+              <div class="product-price">
+                $16.000
+                <small>COP</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Producto 4 ── -->
+      <div class="col-sm-6 col-lg-4 product-card-wrapper fade-up">
+        <div class="product-card">
+          <div class="product-img-wrapper">
+              <video autoplay muted loop playsinline style="width:100%; height:98%; object-fit:cover;">
+                <source src="assets/images/products/PortallaverGaraje.mp4" type="video/mp4" />
+              </video>              
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Portallaves de Garaje</h3>
+            <p class="product-desc">
+              La elección perfecta para los amantes de los carros, no solo le da el toque de decoración 
+              a tu hogar, también cumple con una increíble y divertida funcionalidad.
+              Contamos con variedad de colores, pidelo en el color que desees! 
+              Disponible en color negro, blanco, violeta, amarillo, azúl, beige, rojo, verde.
+            </p>
+            <div class="product-footer">
+              <div class="product-price">
+                $45.000
+                <small>COP</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Producto 5 ── -->
+      <div class="col-sm-6 col-lg-4 product-card-wrapper fade-up">
+        <div class="product-card">
+          <div class="product-img-wrapper">
+              <video autoplay muted loop playsinline style="width:100%; height:98%; object-fit:cover;">
+                <source src="assets/images/products/videoHuevoDragon.mp4" type="video/mp4" />
+              </video>  
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Huevo de dragón antiestrés</h3>
+            <p class="product-desc">
+              Juguete antiestrés para todas las edades en forma de huevo de dragón,
+              obten momentos relajantes y divertidos.
+              Contamos con variedad de colores, pidelo en el color que desees! 
+              Disponible en color negro, blanco, violeta, amarillo, azúl, beige, rojo, verde.
+            </p>
+            <div class="product-footer">
+              <div class="product-price">
+                $25.000
+                <small>COP</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Producto 6 ── -->
+      <div class="col-sm-6 col-lg-4 product-card-wrapper fade-up">
+        <div class="product-card">
+          <div class="product-img-wrapper">
+<!--IMAGEN O VIDEO-->
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Llavero casco Cubone</h3>
+            <p class="product-desc">
+              Para los amantes de este íncreible Pokemon, les traemos lo más característico de él.
+            </p>
+            <div class="product-footer">
+              <div class="product-price">
+                $7.000
+                <small>COP</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Producto 7 ── -->
+      <div class="col-sm-6 col-lg-4 product-card-wrapper fade-up">
+        <div class="product-card">
+          <div class="product-img-wrapper">
+<!--IMAGEN O VIDEO-->
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Llavero casco Cubone</h3>
+            <p class="product-desc">
+              Para los amantes de este íncreible Pokemon, les traemos lo más característico de él.
+            </p>
+            <div class="product-footer">
+              <div class="product-price">
+                $7.000
+                <small>COP</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div><!-- /row productos -->
+  </div><!-- /container -->
+</section>
+
+
+<!-- ══════════════════════════════════════════
+     SOBRE NOSOTROS
+══════════════════════════════════════════ -->
+<section id="nosotros">
+  <div class="container">
+    <div class="row align-items-center g-5">
+
+      <div class="col-lg-6 fade-up">
+        <span class="section-label">¿Quiénes somos?</span>
+        <h2 class="section-title">Impresión 3D con<br>propósito real</h2>
+        <div class="section-divider"></div>
+        <p style="color: var(--color-text-muted); margin-bottom: 2rem;">
+          Somos un emprendimiento apasionado por la fabricación digital.
+          Creamos objetos útiles, decorativos y personalizados con tecnología
+          de impresión 3D, combinando diseño creativo y materiales de calidad.
+        </p>
+
+        <div class="feature-item">
+          <div class="feature-icon">⚙️</div>
+          <div class="feature-text">
+            <h5>Alta precisión</h5>
+            <p>Capas de hasta 0.4 mm para acabados detallados y resistentes.</p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <div class="feature-icon">🎨</div>
+          <div class="feature-text">
+            <h5>Personalización total</h5>
+            <p>Elige colores, tamaños y materiales. También trabajamos con tu diseño.</p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <div class="feature-icon">🚀</div>
+          <div class="feature-text">
+            <h5>Entrega rápida</h5>
+            <p>Tiempo de producción de 24 a 72 horas según la complejidad.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 fade-up d-flex justify-content-center">
+        <div class="nosotros-img-box w-100" style="max-width:420px;">
+          <!--
+            Puedes reemplazar este emoji por una imagen real:
+            <img src="assets/images/nosotros.jpg" alt="Nuestro taller" style="width:100%;height:100%;object-fit:cover;border-radius:8px;" />
+          -->
+          🖨️
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════
+     CONTACTO
+══════════════════════════════════════════ -->
+<section id="contacto">
+  <div class="container">
+    <div class="text-center mb-5 fade-up">
+      <span class="section-label">Escríbenos</span>
+      <h2 class="section-title">Contacto</h2>
+      <div class="section-divider mx-auto"></div>
+      <p style="color: var(--color-text-muted); max-width:480px; margin:0 auto;">
+        ¿Quieres un producto personalizado o tienes alguna pregunta?
+        Con gusto te asesoramos.
+      </p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Formulario -->
+      <div class="col-lg-7 fade-up">
+        <div class="contact-card">
+          <form id="contactForm" novalidate>
+
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label class="form-label" for="nombre">Nombre</label>
+                <input
+                  type="text" id="nombre" name="nombre"
+                  class="form-control" placeholder="Tu nombre"
+                  required
+                />
+              </div>
+              <div class="col-sm-6">
+                <label class="form-label" for="email">Correo electrónico</label>
+                <input
+                  type="email" id="email" name="email"
+                  class="form-control" placeholder="correo@ejemplo.com"
+                  required
+                />
+              </div>
+              <div class="col-12">
+                <label class="form-label" for="telefono">WhatsApp / Teléfono</label>
+                <input
+                  type="tel" id="telefono" name="telefono"
+                  class="form-control" placeholder="+57 300 000 0000"
+                />
+              </div>
+              <div class="col-12">
+                <label class="form-label" for="asunto">Asunto</label>
+                <input
+                  type="text" id="asunto" name="asunto"
+                  class="form-control" placeholder="¿En qué te podemos ayudar?"
+                  required
+                />
+              </div>
+              <div class="col-12">
+                <label class="form-label" for="mensaje">Mensaje</label>
+                <textarea
+                  id="mensaje" name="mensaje"
+                  class="form-control" rows="5"
+                  placeholder="Describe el producto que necesitas, colores, cantidad..."
+                  required
+                ></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn-primary-custom w-100" style="text-align:center;">
+                  Enviar Mensaje
+                </button>
+              </div>
+            </div>
+
+          </form>
+        </div>
+      </div>
+
+      <!-- Info de contacto -->
+      <div class="col-lg-5 fade-up">
+        <div class="contact-info-item">
+          <div class="contact-info-icon">📍</div>
+          <div class="contact-info-text">
+            <span>Ubicación</span>
+            <strong>Colombia</strong>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="contact-info-icon">📱</div>
+          <div class="contact-info-text">
+            <span>WhatsApp</span>
+            <strong>+57 300 000 0000</strong>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="contact-info-icon">✉️</div>
+          <div class="contact-info-text">
+            <span>Correo</span>
+            <strong>info@print3d.co</strong>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="contact-info-icon">🕐</div>
+          <div class="contact-info-text">
+            <span>Atención</span>
+            <strong>Lun–Sáb / 8am–6pm</strong>
+          </div>
+        </div>
+
+        <p style="color: var(--color-text-muted); font-size:0.85rem; margin-top:1.25rem; margin-bottom:0.75rem;">
+          Síguenos en redes sociales
+        </p>
+        <div class="social-links">
+          <a href="#" class="social-link" title="Instagram">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="#" class="social-link" title="Facebook">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="#" class="social-link" title="WhatsApp">
+            <i class="bi bi-whatsapp"></i>
+          </a>
+          <a href="#" class="social-link" title="TikTok">
+            <i class="bi bi-tiktok"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════ -->
+<footer>
+  <div class="container">
+    <p class="brand">Print<span>3D</span> Store</p>
+    <p>Objetos únicos impresos capa a capa · Colombia</p>
+    <p style="margin-top:0.5rem; font-size:0.78rem; opacity:0.5;">
+      © 2025 Print3D Store. Todos los derechos reservados.
+    </p>
+  </div>
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Script propio -->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
